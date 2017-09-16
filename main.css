@@ -1,0 +1,49 @@
+.board {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 328px;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+  width: 328px;
+}
+
+.grid {
+  background-color: #AAA;
+  height: 80px;
+  margin: 0.5px;
+  width: 80px;
+}
+
+.top {
+  border: 2px solid #000;
+  height: 8px;
+  left: 12px;
+  position: relative;
+  width: 50px;
+}
+
+.right {
+  border: 2px solid #000;
+  height: 50px;
+  left: 65px;
+  position: relative;
+  width: 8px;
+}
+
+.bottom {
+  border: 2px solid #000;
+  height: 8px;
+  left: 12px;
+  position: relative;
+  width: 50px;
+}
+
+.left {
+  border: 2px solid #000;
+  height: 50px;
+  position: relative;
+  top: -66px;
+  width: 8px;
+}
